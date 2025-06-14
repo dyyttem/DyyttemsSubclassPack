@@ -5,14 +5,14 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="643df544-0465-4e8e-b1cb-6021f463e785" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 1 " />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Target_ShapeWater_Container;Projectile_IceKnife" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Projectile_IceKnife" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d4371b9-6a6a-46a2-9414-0db6974d115e" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys;Target_CreateDestroyWater" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys;Target_CreateDestroyWater;Shout_FireShield" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

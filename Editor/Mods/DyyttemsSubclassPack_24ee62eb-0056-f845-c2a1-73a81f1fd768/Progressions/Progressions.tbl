@@ -33,7 +33,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(643df544-0465-4e8e-b1cb-6021f463e785,FrigidBlood1,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcySkin;FrozenHeart_IcySoul" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcyBlood1;FrozenHeart_IcySkin1;FrozenHeart_IcySoul1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -45,7 +45,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2d4371b9-6a6a-46a2-9414-0db6974d115e,FrigidBlood2,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcySoulImproved" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcyBlood2;FrozenHeart_IcyBlood2_Technical;FrozenHeart_IcySoul2;FrozenHeart_IcyBlood1_Improved" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

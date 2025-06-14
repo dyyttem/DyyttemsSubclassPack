@@ -3,15 +3,27 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b06b3b0-9bdc-4381-a866-fa14d5943aff" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcyBlood1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h953e3f76gc14ag03c7g8d04gc8dfa625bca3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacbe219dga507gf44eg4b01gb3ed97b33659" version="3" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd9ce5680gaaccge34bg69bcgf69283e46048" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureBarrage" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Projectile_RayOfFrost'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Target_ShapeWater_Freeze'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_ShapeWater_IceBlock'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Projectile_IceKnife'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_2'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_3'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_4'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_5'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_6'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_7'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_8'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_9'),ModifyNumberOfTargets(AdditiveBase,1,false));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c5d181ce-0588-4076-a964-15b75d902337" />
         <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcySkin1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h401fa315g9ad0gcb5fgd387g8b747449376a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h485786d6g723cge865g8ff9g5e3bd97659a1" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h485786d6g723cge865g8ff9g5e3bd97659a1" version="6" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Resistant);Resistance(Fire, Vulnerable);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Resistant);Resistance(Bludgeoning, Vulnerable);Resistance(Fire, Vulnerable);Resistance(Force, Vulnerable);Resistance(Thunder, Vulnerable);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy_Cold" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hab6f93a0g42b5g8c57g088egd3edb6320724" version="3" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold);DealDamage(,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold);DealDamage(,Bludgeoning);DealDamage(,Fire);DealDamage(,Force);DealDamage(,Thunder)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -20,37 +32,54 @@
         <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcySoul1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f3bd8c3gbccdge0b0g6821g22418dd29eeb" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0984a158g4555g8904g57ceg5dc30fa285e3" version="10" />
-        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemove;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0984a158g4555g8904g57ceg5dc30fa285e3" version="14" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeCold();IsSpell();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_COLD_NUMBING_FROST, 100, 2);ApplyStatus(MAG_COLD_NUMBING_FROST_DURATION_TECHNICAL, 100, 1)" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1c873544gebf6g7d3cg9921gec7e31ee4582" version="5" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold);2" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsDamageTypeCold() and IsSpell();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(NUMBING_FROST, 100, 2);ApplyStatus(NUMBING_FROST_DURATION_TECHNICAL, 100, 1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold);2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1b06b3b0-9bdc-4381-a866-fa14d5943aff" />
-        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcyBlood1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h953e3f76gc14ag03c7g8d04gc8dfa625bca3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacbe219dga507gf44eg4b01gb3ed97b33659" version="1" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5914316cg8f46gfdbbgd546g7a80a6a9d878" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureBarrage" />
+        <field name="UUID" type="IdTableFieldDefinition" value="52c1a199-3c94-4121-a87b-6c62c97222f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcyBlood2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc36a7a2g0279ge265g5417g1f17c9688268" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11b0926cg2277ge02cgbebbg0fe203298536" version="2" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Projectile_RayOfFrost'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Target_ShapeWater_Freeze'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_ShapeWater_IceBlock'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Projectile_IceKnife'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_2'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_3'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_4'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_5'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_6'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_7'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_8'),ModifyNumberOfTargets(AdditiveBase,1,false));UnlockSpellVariant(SpellId('Projectile_IceKnife_9'),ModifyNumberOfTargets(AdditiveBase,1,false));" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('WET',context.Target) or HasStatus('FIRE_SHIELD_CHILL',context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('WET')):ApplyStatus(RIME_SHIELD_TEMP, 100, WET.Duration);IF(HasStatus('WET')):RemoveStatus(WET);IF(HasStatus('FIRE_SHIELD_CHILL') and not HasStatus('RIME_SHIELD_TEMP')):ApplyStatus(RIME_SHIELD_TEMP, 100, FIRE_SHIELD_CHILL.Duration);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f00eb3ef-60c6-4689-8b10-801434f6a071" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcyBlood2_Technical" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52c1a199-3c94-4121-a87b-6c62c97222f1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('ARMOR_OF_AGATHYS',context.Target) or HasStatus('ARMOR_OF_AGATHYS_2',context.Target) or HasStatus('ARMOR_OF_AGATHYS_3',context.Target) or HasStatus('ARMOR_OF_AGATHYS_4',context.Target) or HasStatus('ARMOR_OF_AGATHYS_5',context.Target) or HasStatus('ARMOR_OF_AGATHYS_6',context.Target) or HasStatus('ARMOR_OF_AGATHYS_7',context.Target) or HasStatus('ARMOR_OF_AGATHYS_8',context.Target) or HasStatus('ARMOR_OF_AGATHYS_9',context.Target) or HasStatus('RIME_SHIELD',context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF((HasStatus('ARMOR_OF_AGATHYS') or HasStatus('ARMOR_OF_AGATHYS_2') or HasStatus('ARMOR_OF_AGATHYS_3') or HasStatus('ARMOR_OF_AGATHYS_4') or HasStatus('ARMOR_OF_AGATHYS_5') or HasStatus('ARMOR_OF_AGATHYS_6') or HasStatus('ARMOR_OF_AGATHYS_7') or HasStatus('ARMOR_OF_AGATHYS_8') or HasStatus('ARMOR_OF_AGATHYS_9')) and not HasStatus('RIME_SHIELD')):ApplyStatus(RIME_SHIELD, 100, -1);IF(HasStatus('RIME_SHIELD') and not (HasStatus('ARMOR_OF_AGATHYS') or HasStatus('ARMOR_OF_AGATHYS_2') or HasStatus('ARMOR_OF_AGATHYS_3') or HasStatus('ARMOR_OF_AGATHYS_4') or HasStatus('ARMOR_OF_AGATHYS_5') or HasStatus('ARMOR_OF_AGATHYS_6') or HasStatus('ARMOR_OF_AGATHYS_7') or HasStatus('ARMOR_OF_AGATHYS_8') or HasStatus('ARMOR_OF_AGATHYS_9'))):RemoveStatus(RIME_SHIELD);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5f129e68-18ae-446f-ac34-91d40cf11b6d" />
-        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcySoulImproved" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25a872dagd0f5g7e8aga279g42092d983f0f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf93e5262g95eagb685g3be4gd88454cac71f" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsSpell() and IsDamageTypeCold()):DamageBonus(max(0, CharismaModifier));StatusImmunity(PRONE_ICE);StatusImmunity(MAG_FROST);StatusImmunity(MAG_FROST_ONCE_TECHNICAL);StatusImmunity(MAG_FROST_DURATION_TECHNICAL);StatusImmunity(MAG_FROST_FROZEN_CHECK_TECHNICAL);StatusImmunity(MAG_FROSTBITE_SPELL);StatusImmunity(MAG_FROSTBITE_CREATURE);StatusImmunity(MAG_INCREASED_DAMAGE_COLD);StatusImmunity(BRITTLE);StatusImmunity(RAY_OF_FROST);StatusImmunity(FROZEN);StatusImmunity(CHILLED);StatusImmunity(ICECLOUD);StatusImmunity(MAG_COLD_NUMBING_FROST);StatusImmunity(DIFFICULT_TERRAIN_ICE);" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84d7bb70g4b81g4738gfcc6g102f808b9224" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcySoul2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25a872dagd0f5g7e8aga279g42092d983f0f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf93e5262g95eagb685g3be4gd88454cac71f" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(PRONE_ICE);StatusImmunity(MAG_FROST);StatusImmunity(MAG_FROST_ONCE_TECHNICAL);StatusImmunity(MAG_FROST_DURATION_TECHNICAL);StatusImmunity(MAG_FROST_FROZEN_CHECK_TECHNICAL);StatusImmunity(MAG_FROSTBITE_SPELL);StatusImmunity(MAG_FROSTBITE_CREATURE);StatusImmunity(MAG_INCREASED_DAMAGE_COLD);StatusImmunity(BRITTLE);StatusImmunity(RAY_OF_FROST);StatusImmunity(FROZEN);StatusImmunity(CHILLED);StatusImmunity(ICECLOUD);StatusImmunity(NUMBING_FROST);StatusImmunity(DIFFICULT_TERRAIN_ICE);StatusImmunity(FROSTBITE);StatusImmuntiy(RIMES_BINDING_ICE);" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h301422ebgd5b7ga542ge41ag714ec53b3b4d" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_DashAcrossDifficultTerrain" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="077c4195-f54c-4863-8fee-615a0e1a4786" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrozenHeart_IcyBlood1_Improved" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44c33335g3bd2g2a84gaaffgbf92146a293d" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -40,7 +40,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="FrozenHeart"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FrozenHeart_IcySkin;FrozenHeart_IcySoul"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FrozenHeart_IcyBlood1;FrozenHeart_IcySkin1;FrozenHeart_IcySoul1"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(643df544-0465-4e8e-b1cb-6021f463e785,FrigidBlood1,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
@@ -49,7 +49,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="FrozenHeart"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FrozenHeart_IcySoulImproved"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FrozenHeart_IcyBlood2;FrozenHeart_IcyBlood2_Technical;FrozenHeart_IcySoul2;FrozenHeart_IcyBlood1_Improved"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(2d4371b9-6a6a-46a2-9414-0db6974d115e,FrigidBlood2,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
