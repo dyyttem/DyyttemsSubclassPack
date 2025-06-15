@@ -6,7 +6,7 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Frozen Heart 1 "/>
-                    <attribute id="Spells" type="LSString" value="Projectile_RayOfFrost;Projectile_IceKnife"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_RayOfFrost;Projectile_IceKnife;Projectile_IceKnife_IcyBlood"/>
                     <attribute id="UUID" type="guid" value="643df544-0465-4e8e-b1cb-6021f463e785"/>
                 </node>
                 <node id="SpellList">

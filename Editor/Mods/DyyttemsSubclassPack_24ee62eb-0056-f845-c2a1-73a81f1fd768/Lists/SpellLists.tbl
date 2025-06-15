@@ -5,7 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="643df544-0465-4e8e-b1cb-6021f463e785" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 1 " />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Projectile_IceKnife" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Projectile_IceKnife;Projectile_IceKnife_IcyBlood" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
