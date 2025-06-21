@@ -5,21 +5,21 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="643df544-0465-4e8e-b1cb-6021f463e785" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 1 " />
-        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_RayOfFrost;Projectile_IceKnife;Projectile_IceKnife_IcyBlood" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Projectile_IcicleBlades;Projectile_FrigidBlast" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d4371b9-6a6a-46a2-9414-0db6974d115e" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys;Target_CreateDestroyWater;Shout_FireShield" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArmorOfAgathys;Target_CreateDestroyWater;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6617443f-4bfd-44d9-80ef-f055e5603229" />
         <field name="Name" type="NameTableFieldDefinition" value="Frozen Heart 11" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_FreezingSphere;Wall_WallOfIce" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FreezingSphere;Wall_WallOfIce;Zone_WintersBreath" />
       </fields>
     </stat_object>
   </stat_objects>

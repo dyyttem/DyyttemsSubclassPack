@@ -5,31 +5,31 @@
         <node id="root">
             <children>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h61b7faf8g3deag8a66gc9bcge60417f0939b" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hbf1a7f61g9924gd47bgf7a5g1f6334a798bd" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hcbd4dbd0g29aag8665ge503gd68b5b604657" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="FrozenHeart"/>
                     <attribute id="ProgressionTableId" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
                     <attribute id="UUID" type="guid" value="6edb4d25-d047-46a6-9429-bb91fecd19f6"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h18f416bagb556g4f4fg7695ga9599085df8e" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb2633dfag0e30g3fc2g94aag3bacf6866926" version="2"/>
+                    <attribute id="Description" type="TranslatedString" handle="h1bc950b5g8f17g366dg521dg497fa0a8f419" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb2633dfag0e30g3fc2g94aag3bacf6866926" version="3"/>
                     <attribute id="ProgressionTableId" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
-                    <attribute id="SelectorId" type="FixedString" value="FrigidBlood1"/>
+                    <attribute id="SelectorId" type="FixedString" value="FrostMagic1"/>
                     <attribute id="UUID" type="guid" value="40f0bc9b-f3f6-44c2-9d22-15e17d77539b"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h3b7b7f3agf9dag035fgcffdg14c610a92619" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="he35b6952gb827g0787g367bgd0749b19510c" version="2"/>
+                    <attribute id="Description" type="TranslatedString" handle="hc7495940g59c6g94b4g75eagf21dbe480d69" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he35b6952gb827g0787g367bgd0749b19510c" version="3"/>
                     <attribute id="ProgressionTableId" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
-                    <attribute id="SelectorId" type="FixedString" value="FrigidBlood2"/>
+                    <attribute id="SelectorId" type="FixedString" value="FrostMagic2"/>
                     <attribute id="UUID" type="guid" value="4ef7e06b-5b78-49f3-b696-8950ac4a7134"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h817932d6g5945g4b23g0b96g886582881f8b" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h14845372geddag26d8gf357g9956af283024" version="2"/>
+                    <attribute id="Description" type="TranslatedString" handle="ha4fd5133g5b1eg50e5g78e3gd0e610c5fc25" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h14845372geddag26d8gf357g9956af283024" version="3"/>
                     <attribute id="ProgressionTableId" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
-                    <attribute id="SelectorId" type="FixedString" value="FrigidBlood3"/>
+                    <attribute id="SelectorId" type="FixedString" value="FrostMagic3"/>
                     <attribute id="UUID" type="guid" value="c1ab3a40-25a5-4205-9a5c-f90d91a65a08"/>
                 </node>
             </children>

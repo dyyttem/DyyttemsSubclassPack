@@ -1,0 +1,7 @@
+new entry "Zone_WintersBreath"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_WintersBreath_Elemental_Water"
+data "UseCosts" "BonusActionPoint:1;SorceryPoint:3;"
+data "SpellFlags" "IsHarmful;IsSpell"
+

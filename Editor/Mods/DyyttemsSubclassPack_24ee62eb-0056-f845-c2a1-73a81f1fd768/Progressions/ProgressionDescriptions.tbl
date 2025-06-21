@@ -6,39 +6,39 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="6edb4d25-d047-46a6-9429-bb91fecd19f6" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcbd4dbd0g29aag8665ge503gd68b5b604657" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61b7faf8g3deag8a66gc9bcge60417f0939b" version="1" />
         <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="FrozenHeart" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbf1a7f61g9924gd47bgf7a5g1f6334a798bd" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
         <field name="UUID" type="IdTableFieldDefinition" value="40f0bc9b-f3f6-44c2-9d22-15e17d77539b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2633dfag0e30g3fc2g94aag3bacf6866926" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h18f416bagb556g4f4fg7695ga9599085df8e" version="1" />
-        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrigidBlood1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2633dfag0e30g3fc2g94aag3bacf6866926" version="3" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrostMagic1" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1bc950b5g8f17g366dg521dg497fa0a8f419" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
         <field name="UUID" type="IdTableFieldDefinition" value="4ef7e06b-5b78-49f3-b696-8950ac4a7134" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he35b6952gb827g0787g367bgd0749b19510c" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b7b7f3agf9dag035fgcffdg14c610a92619" version="1" />
-        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrigidBlood2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he35b6952gb827g0787g367bgd0749b19510c" version="3" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrostMagic2" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc7495940g59c6g94b4g75eagf21dbe480d69" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
         <field name="UUID" type="IdTableFieldDefinition" value="c1ab3a40-25a5-4205-9a5c-f90d91a65a08" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14845372geddag26d8gf357g9956af283024" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h817932d6g5945g4b23g0b96g886582881f8b" version="1" />
-        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrigidBlood3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14845372geddag26d8gf357g9956af283024" version="3" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="FrostMagic3" />
         <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4fd5133g5b1eg50e5g78e3gd0e610c5fc25" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

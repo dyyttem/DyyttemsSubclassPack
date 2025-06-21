@@ -8,7 +8,7 @@
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="FrozenHeart" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89358edag9b87gb02bg2eaeg74a7689a34d5" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6538ac06g467ag9b71gdda4g77fbebbca8b7" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6538ac06g467ag9b71gdda4g77fbebbca8b7" version="5" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
         <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Sorcerer" />
         <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Charisma" enumeration_type_name="Ability" version="1" />

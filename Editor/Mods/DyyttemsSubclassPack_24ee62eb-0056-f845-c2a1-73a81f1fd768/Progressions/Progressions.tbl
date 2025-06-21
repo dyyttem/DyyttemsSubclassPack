@@ -32,8 +32,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FrozenHeart" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(643df544-0465-4e8e-b1cb-6021f463e785,FrigidBlood1,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcyBlood1;FrozenHeart_IcySkin1;FrozenHeart_IcySoul1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(643df544-0465-4e8e-b1cb-6021f463e785,FrostMagic1,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_GlassSkin;DSP_FrozenHeart_CreepingChill" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -44,8 +44,8 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FrozenHeart" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2d4371b9-6a6a-46a2-9414-0db6974d115e,FrigidBlood2,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="FrozenHeart_IcyBlood2;FrozenHeart_IcyBlood2_Technical;FrozenHeart_IcySoul2;FrozenHeart_IcyBlood1_Improved" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(2d4371b9-6a6a-46a2-9414-0db6974d115e,FrostMagic2,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_ColdBlooded;DSP_FrozenHeart_ColdBlooded_Technical" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -56,7 +56,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="FrozenHeart" />
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6617443f-4bfd-44d9-80ef-f055e5603229,FrigidBlood3,,,AlwaysPrepared)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6617443f-4bfd-44d9-80ef-f055e5603229,FrostMagic3,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_Permafrost" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="DSP_FrozenHeart_GlassSkin" />
       </fields>
     </stat_object>
   </stat_objects>

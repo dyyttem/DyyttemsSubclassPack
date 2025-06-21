@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4fcdf163-88be-40b5-bf02-680ac5d776d9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c46302d5-8139-4212-8a79-52bfa616b060" />
+        <field name="Name" type="NameTableFieldDefinition" value="WintersBreath" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8918bf03-d386-47c8-b76a-2e05a04bc8c0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SorceryPoint:3;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

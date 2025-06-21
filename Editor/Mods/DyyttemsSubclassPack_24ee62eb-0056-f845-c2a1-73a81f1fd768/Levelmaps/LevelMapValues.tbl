@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="2d56f038-865d-492c-b434-c2b3e821cc13">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades" />
+        <field name="UUID" type="IdTableFieldDefinition" value="87366b09-3761-4e41-b718-63d93c2c654e" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2" />
+        <field name="Level5" type="StringTableFieldDefinition" value="3" />
+        <field name="Level9" type="StringTableFieldDefinition" value="4" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="2" />
+        <field name="Level13" type="StringTableFieldDefinition" value="5" />
+        <field name="Level17" type="StringTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

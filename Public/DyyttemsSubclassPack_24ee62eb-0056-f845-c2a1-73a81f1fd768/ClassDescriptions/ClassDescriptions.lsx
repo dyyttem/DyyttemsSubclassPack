@@ -6,7 +6,7 @@
             <children>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="h6538ac06g467ag9b71gdda4g77fbebbca8b7" version="4"/>
+                    <attribute id="Description" type="TranslatedString" handle="h6538ac06g467ag9b71gdda4g77fbebbca8b7" version="5"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h89358edag9b87gb02bg2eaeg74a7689a34d5" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="FrozenHeart"/>
