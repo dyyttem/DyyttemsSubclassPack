@@ -1,4 +1,4 @@
-new entry "Zone_WintersBreath"
+new entry "Zone_WintersBreath_FrozenHeart"
 type "SpellData"
 data "SpellType" "Zone"
 using "Zone_WintersBreath_Elemental_Water"

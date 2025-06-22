@@ -76,11 +76,15 @@
   <content contentuid="hca7f9f52gbd31g74f7g74beg7315420bbf04" version="1">Throw a barrage of [1] icy blades that each deal [2] and [3]. The number of blades you can throw depends on your Sorcerer level.</content>
   <content contentuid="h0ab39703g3049gfae0g17b1g7b616646908b" version="1">Throw a barrage of [1] icy blades that each deal [2] and [3]. The number of blades you can throw depends on your Sorcerer level.</content>
   <content contentuid="hf850aa9eg92bega798g416fgeb8a7480495e" version="1">Frigid Blast</content>
-  <content contentuid="h7f1a77d6g0418gb0e0gace3g7542ff87a8b4" version="1">Summon [1] gust(s) of frigid air.</content>
+  <content contentuid="h7f1a77d6g0418gb0e0gace3g7542ff87a8b4" version="2">Summon [1] gust(s) of frigid air, each one dealing [2].</content>
   <content contentuid="h1bc950b5g8f17g366dg521dg497fa0a8f419" version="1">a</content>
   <content contentuid="hc7495940g59c6g94b4g75eagf21dbe480d69" version="1">a</content>
   <content contentuid="ha4fd5133g5b1eg50e5g78e3gd0e610c5fc25" version="1">a</content>
   <content contentuid="hbf1a7f61g9924gd47bgf7a5g1f6334a798bd" version="1">a</content>
   <content contentuid="h5fe9e162g7adbg1d8fgf063gb2b0bcaba7ab" version="1">Permafrost</content>
   <content contentuid="hbda21e2bg6543g0fa5g4d26gf62e253ee8ee" version="1">Your body is shielded by layers of packed ice. You are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to[1] and &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to[2], but no longer &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to[3].</content>
+  <content contentuid="h9c511c2fgaad5g868bg0c64g130c3a7a149d" version="1">Absolute Zero</content>
+  <content contentuid="h4ae568ddgcaceg7104g329bg9345fdb6a113" version="1">Your frozen core crystallises the very air around you. You are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to[1], &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to[2] and &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to[3].</content>
+  <content contentuid="hfda44a2egee85gff8ag3b3bgea7d55c5a26c" version="1">Frost Magic</content>
+  <content contentuid="h021da943g1cffgcc79gb4b2g9a20bda8e4c3" version="1">a</content>
 </contentList>

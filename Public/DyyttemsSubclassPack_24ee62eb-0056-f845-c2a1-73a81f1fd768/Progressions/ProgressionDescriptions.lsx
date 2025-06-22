@@ -32,6 +32,13 @@
                     <attribute id="SelectorId" type="FixedString" value="FrostMagic3"/>
                     <attribute id="UUID" type="guid" value="c1ab3a40-25a5-4205-9a5c-f90d91a65a08"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h021da943g1cffgcc79gb4b2g9a20bda8e4c3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfda44a2egee85gff8ag3b3bgea7d55c5a26c" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="a19629c0-679c-424a-9645-f6651f338a59"/>
+                    <attribute id="SelectorId" type="FixedString" value="FrostMagic4"/>
+                    <attribute id="UUID" type="guid" value="12d5ef7f-9818-486b-a8f5-4f1745723a87"/>
+                </node>
             </children>
         </node>
     </region>

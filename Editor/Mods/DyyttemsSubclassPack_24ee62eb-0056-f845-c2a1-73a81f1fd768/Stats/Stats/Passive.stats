@@ -73,5 +73,19 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Resistant);Resistance(Bludgeoning, Vulnerable);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1a64610-ac34-43d8-98e1-e4fe1bfe7f21" />
+        <field name="Name" type="NameTableFieldDefinition" value="DSP_FrozenHeart_AbsoluteZero" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c511c2fgaad5g868bg0c64g130c3a7a149d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4ae568ddgcaceg7104g329bg9345fdb6a113" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(,Cold);DealDamage(,Fire);DealDamage(,Bludgeoning);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ProtectionFromEnergy_Cold" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Immune);Resistance(Fire, Resistant);Resistance(Bludgeoning, Vulnerable);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnSurfaceEnter" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="SurfaceChange(Freeze);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

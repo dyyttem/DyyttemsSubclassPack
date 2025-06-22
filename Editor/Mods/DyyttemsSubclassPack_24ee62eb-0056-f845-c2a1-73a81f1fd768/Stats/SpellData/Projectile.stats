@@ -4,15 +4,15 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3374a331-d7c0-4aec-8d07-e354b8224773" />
-        <field name="Name" type="NameTableFieldDefinition" value="FrigidBlast" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrigidBlast_FrozenHeart" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ddcb7911-c2a6-4a6d-a3a6-e6456611feef" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Cold,Magical);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="47ac1e9a-3b62-4010-bde9-0dc602edd114" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GustOfWind" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf850aa9eg92bega798g416fgeb8a7480495e" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f1a77d6g0418gb0e0gace3g7542ff87a8b4" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d10,Cold)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f1a77d6g0418gb0e0gace3g7542ff87a8b4" version="2" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage((LevelMapValue(EldritchBlast))d10,Cold);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Ice_RayOfFrost_L0" />
@@ -20,12 +20,13 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="f3d3763c-1cbb-4d7a-94da-d9f703b7d67a" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="LevelMapValue(EldritchBlast);DealDamage(1d10,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c2d23102-2d0b-4689-9e54-2b4afffc727d" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54199cdb-a601-4cd7-88e6-6eab94caf844" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -47,7 +48,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fd4e3630-53bd-4e3b-9323-3561647e01b2" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_2" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37daea98-908f-42fb-86f6-4ee37f6095ef" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -55,7 +56,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd6f115c5g11a0g2b72gde09g5bcd01d00f19" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05f7b280g3e07g1855gdeeeg009e246b5760" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:2;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Piercing);DealDamage(3d6, Cold,Magical);" />
@@ -70,7 +71,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4a3ea965-4cd7-4e79-990a-24d37a7f0771" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c623f487-9e12-4348-b573-df9c28fe98fc" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -78,7 +79,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff4fa55dgfa99gb59ag2487gf103896d9dae" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfec8597dga4cbg564dgee3age2aab3728629" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:3;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Piercing);DealDamage(4d6, Cold,Magical);" />
@@ -93,7 +94,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="64aa4a3a-adf1-45e5-9d48-0af7323f141b" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_4" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f42aae4b-3ea0-4d4f-9f30-41c288fc3d05" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -101,7 +102,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he878da07gbb94ga334gd2a1g97a295e59a3e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadf43e4cg68edgb20bgf201g683f82b2333c" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:4;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Piercing);DealDamage(5d6, Cold,Magical);" />
@@ -116,7 +117,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6456b15d-64c6-4f3e-85cd-9fb03fcd9046" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_5" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="55df6d0e-122c-42ec-8969-24aad7ad4e42" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -124,7 +125,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d30dfc9g3766gce3dg9155g25a7dce78ff2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf341a53agb010ge3bdg1800gb661a9372f6a" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:5;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Piercing);DealDamage(6d6, Cold,Magical);" />
@@ -139,7 +140,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9e6386b3-eab0-428e-adda-3f3bf49e7f1c" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_6" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ee14260e-07d5-43f7-a1be-8d734e9eed61" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -147,7 +148,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc59d2b85g2f21g430fg5da0g68e430373d30" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h43475e6egc6c4g095dgcc61g9c0808121d80" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:6;" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d10,Piercing);DealDamage(7d6, Cold,Magical);" />
@@ -162,7 +163,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="deff99df-56f4-4ab2-bcd3-c810597680ab" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_7" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_7" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
@@ -191,7 +192,7 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="7" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5c953997-0342-4865-bec2-414dccbd4588" />
@@ -201,7 +202,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="64a5896c-9e4c-47c1-a503-d8486bab78ed" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_8" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_8" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
@@ -230,7 +231,7 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="8" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5c953997-0342-4865-bec2-414dccbd4588" />
@@ -240,7 +241,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="928c95b9-c4fa-4322-a813-4b14436c9fde" />
-        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_9" />
+        <field name="Name" type="NameTableFieldDefinition" value="IcicleBlades_FrozenHeart_9" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);" />
@@ -269,11 +270,29 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_IcicleBlades_FrozenHeart" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="9" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5c953997-0342-4865-bec2-414dccbd4588" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bed02201-0afc-4179-a346-d02486c521a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ExplosiveIcicle_FrozenHeart" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562d0a75-b996-4f2a-8f19-3a69f7cc1b09" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Cold);DealDamage(3d8,Cold);DealDamage(3d8,Cold)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SorceryPoint:5;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;b9bf0c36-7d07-472d-b5cc-82b0b4911e99,,;f1fe3ffe-9aec-445b-9473-0d7900b85550,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="WeaponType" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ee97e6e4-90a1-4181-b7fa-f6fe8b2af2d0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="5c953997-0342-4865-bec2-414dccbd4588" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Cold" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

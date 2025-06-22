@@ -33,7 +33,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(643df544-0465-4e8e-b1cb-6021f463e785,FrostMagic1,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_GlassSkin;DSP_FrozenHeart_CreepingChill" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_CreepingChill;DSP_FrozenHeart_GlassSkin;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -59,6 +59,19 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(6617443f-4bfd-44d9-80ef-f055e5603229,FrostMagic3,,,AlwaysPrepared)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_Permafrost" />
         <field name="PassivesRemoved" type="StringTableFieldDefinition" value="DSP_FrozenHeart_GlassSkin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5f64d17-43b8-47ff-a924-39069f578b10" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="a19629c0-679c-424a-9645-f6651f338a59" />
+        <field name="FSName" type="StringTableFieldDefinition" value="FrozenHeart" />
+        <field name="Level" type="ByteTableFieldDefinition" value="18" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(55f87fe5-8274-44f1-8941-2486c7851a32,FrostMagic4,,,AlwaysPrepared)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DSP_FrozenHeart_AbsoluteZero" />
+        <field name="PassivesRemoved" type="StringTableFieldDefinition" value="DSP_FrozenHeart_Permafrost" />
       </fields>
     </stat_object>
   </stat_objects>
